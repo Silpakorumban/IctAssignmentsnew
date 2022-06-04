@@ -75,4 +75,6 @@
  //  app.listen(PORT, () => {
  //      console.log(`Server Ready on ${PORT}`);
  //  });
- app.listen(process.env.PORT);
+ app.listen(process.env.PORT, () => {
+     console.log(`Server Ready on ${PORT}`)
+ });
