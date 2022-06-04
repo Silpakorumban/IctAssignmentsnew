@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI || "localhost: 2017 / Pustakamcasestudy", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useNewUrlParser: true
-});
+
+mongoose.connect(process.env.MONGODB_URI || localhost: 2017 / Pustakamcasestudy)
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
+    // useNewUrlParser: true
+
 const Schema = mongoose.Schema;
 
 
