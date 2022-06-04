@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Library', {
+mongoose.connect(process.env.MONGODB_URI || "localhost: 2017 / Pustakamcasestudy", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useNewUrlParser: true
