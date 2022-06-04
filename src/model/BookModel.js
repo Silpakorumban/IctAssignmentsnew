@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect('mongodb+srv://silpacp:Mithun2807@@cluster0.rzorreb.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true });
 // {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true,
