@@ -75,4 +75,4 @@
  //  app.listen(PORT, () => {
  //      console.log(`Server Ready on ${PORT}`);
  //  });
- app.listen((process.env.PORT || 5000));
+ app.listen(process.env.PORT);
